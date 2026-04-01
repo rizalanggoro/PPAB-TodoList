@@ -86,7 +86,7 @@ private fun Content() {
             verticalArrangement = Arrangement.Center
         ) {
             AnimatedVisibility(visible = isShow) {
-                Text("Counter value ${counter2.intValue}")
+                Text("Counter value = ${counter2.intValue}")
             }
 
             Row(modifier = Modifier.padding(top = 16.dp),
